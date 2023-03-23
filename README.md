@@ -1,4 +1,4 @@
-# recipes-predictions
+# HOW MANY CALORIES ARE IN THIS MEAL?
 by Raghava Bandla (rbandla@ucsd.edu)
 
 ---
