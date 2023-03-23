@@ -12,4 +12,13 @@ For this project, I wanted to predict the ***number of calories from a recipe***
 # Baseline Model
 
 My baseline model is a linear regression model with 3 features: carbohydrates, total fat, and number of steps. All three of these features are quantitative because I don't think any non-quantitative features would be suitable to predict the number of calories. I left the carbohydrates and total fat columns untouched, but the number of steps columns I used a Binarizer to turn the column into values of 1 or 0 if the column value is greater than 9. I chose 9 becuase when I was doing my exploratory data analysis, I graphed the distribution of the number of steps and 9 was the median. I believe my model is good because I calulated the RMSE of the training and testing data and the results were:\
+\
+***Training Data RMSE***: 102.63272690417527\
+***Testing Data RMSE***: 115.41697770169566\
+\
+Based on these results, the RMSE aren't too far apart from each other, meaning the model wasn't overfitting or underfitting, but generalized just fine. This is why I believe this baseline model is good. 
+
+---
+
+# Final Model
 
