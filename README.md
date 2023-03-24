@@ -1,5 +1,6 @@
 # HOW MANY CALORIES ARE IN THIS MEAL?
-by Raghava Bandla (rbandla@ucsd.edu)
+by Raghava Bandla (rbandla@ucsd.edu)\
+My exploratory data analysis on this dataset can be found here : https://rbandla0.github.io/recipes-analysis/
 
 ---
 
@@ -55,4 +56,4 @@ I used GridSearchCV to select the best hyperparameters and the result was the Bi
 \
 ***Resulting P-value:*** 0.727\
 \
-***Conclusion:*** Since the p-value is greater than the significance level, we fail to reject the null because there isn't enough statistical evidence to reject it. 
+***Conclusion:*** Since the p-value is greater than the significance level, we fail to reject the null because there isn't enough statistical evidence to prove an effect. Since we didn't reject the null, it shows that my model is fair because the RMSE is similar to predictions in both groups.  
