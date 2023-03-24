@@ -34,7 +34,6 @@ I used GridSearchCV to select the best hyperparameters and the result was the Bi
 \
 ***Final Model Training Data RMSE:*** 47.329709539841424\
 ***Final Model Testing Data RMSE:*** 47.413034319796395\
-\
 
 ---
 
