@@ -33,7 +33,7 @@ n_quantiles : 15000***\
 I used GridSearchCV to select the best hyperparameters and the result was the Binarizer threshold being 4 and the number of quantiles in the QuantileTransformer being 15000. This made a significant imporvement on my baseline model because the RMSE decreased with the final model. The lower the RMSE, the better the model is at predicting data. Also, my training and testing data were very similar, meaning the model is good at predicting the data.\
 \
 ***Final Model Training Data RMSE:*** 47.329709539841424\
-***Final Model Testing Data RMSE:*** 47.413034319796395\
+***Final Model Testing Data RMSE:*** 47.413034319796395
 
 ---
 
